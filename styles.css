@@ -1,0 +1,18 @@
+.navbarcolor {
+  background-color: #2d5e8b !important;
+}
+a {
+  color: #fff !important;
+}
+a:hover {
+  display: block;
+  background-color: #2fd !important;
+}
+a:focus {
+  display: block;
+  background-color: #2fd !important;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  background-color: #2fd;
+}
