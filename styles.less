@@ -12,8 +12,14 @@
 	
 	
   }
+  .navbar{
+	-webkit-box-shadow: -7px 21px 59px -5px rgba(0,0,0,0.68);
+-moz-box-shadow: -7px 21px 59px -5px rgba(0,0,0,0.68);
+box-shadow: -7px 21px 59px -5px rgba(0,0,0,0.68);
+  }
 
   .navbar-nav {
+	
 	
     > li > a {
       color: #fff;
@@ -76,4 +82,32 @@
 .navbar-default .navbar-nav > li > a:focus {
 	background-color: @nav-bar-li-hover-color;
 }
- 
+ @media (min-width: 768px){
+	.myCarousel{
+		width:'100%';
+
+
+	}
+
+
+ }
+
+@media (min-width: 1200px){
+   .carousel{
+	   
+	   
+
+   }
+
+   .container{
+	   flex:1;
+
+   }
+   .slidercontainer{
+	flex:1;
+	width:'100%';
+	
+}
+
+
+}
